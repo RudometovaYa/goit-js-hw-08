@@ -107,7 +107,7 @@ container.addEventListener('click', (e) => {
 });
 
 function openModal(src, alt) {
-    const instance = basicLightbox.create(`
+    instance = basicLightbox.create(`
     <div class="modal">
        <img
       class="modal-image"
